@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.8
+FROM alpine:3.11
 
-LABEL maintainer="Joshua Rutherford <joshua.rutherford@deciphernow.com>"
+LABEL maintainer="Joshua Rutherford <joshua.rutherford@greymatter.io>"
 
 ENV "ROOT_DN"                "cn=root,dc=example,dc=com"
 ENV "ROOT_PW"                "password"
